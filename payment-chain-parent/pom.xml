@@ -44,7 +44,7 @@ but ussually we use maven clean install
 -->
 
 
-    <groupId>com.demo.payment-chain-parent</groupId>
+    <groupId>com.demo</groupId>
     <artifactId>payment-chain-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -212,7 +212,7 @@ but ussually we use maven clean install
         </plugins>
     </build>
     <modules>
-        <module>../customer</module>
-        <module>../product</module>
+        <module>../businessdomain</module>
+        <module>../infraestructuradomain</module>
     </modules>
 </project>
