@@ -4,7 +4,6 @@ import com.demo.customer.entity.Customer;
 import com.demo.customer.repository.CustomerProductRepository;
 import com.demo.customer.repository.CustomerRepository;
 import com.demo.customer.service.CustomerService;
-import com.demo.product.entity.Product;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -79,7 +78,7 @@ public class CustomerController {
         JsonNode node = webClient.method(HttpMethod.GET).uri("/" + id)
                 .retrieve().bodyToMono(JsonNode.class).block();
 
-        Product cliente = new Gson().fromJson(node.toString(), Product.class);
+        //ProductDTO cliente = new Gson().fromJson(node.toString(), ProductDTO.class);
 
         return node.get("name").asText();
     }
