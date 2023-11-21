@@ -17,6 +17,6 @@ public class Product {
 
     private String code;
 
-    private Double name;
+    private String name;
 
 }

@@ -29,7 +29,7 @@ public class Customer implements Serializable {
 
     private String address;
 
-    @OneToMany(fetch = FetchType.LAZY)
-    private List<CustomerProduct> customerProducts;
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "customer")
+    private List<CustomerProduct> products;
 
 }
