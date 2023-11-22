@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businessdomain/businessdomain.iml" filepath="$PROJECT_DIR$/businessdomain/businessdomain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businessdomain/customer/customer.iml" filepath="$PROJECT_DIR$/businessdomain/customer/customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infraestructuradomain/infraestructuradomain.iml" filepath="$PROJECT_DIR$/infraestructuradomain/infraestructuradomain.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservices.iml" filepath="$PROJECT_DIR$/.idea/microservices.iml" />
-      <module fileurl="file://$PROJECT_DIR$/product/product.iml" filepath="$PROJECT_DIR$/product/product.iml" />
-      <module fileurl="file://$PROJECT_DIR$/transaction/transaction.iml" filepath="$PROJECT_DIR$/transaction/transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businessdomain/product/product.iml" filepath="$PROJECT_DIR$/businessdomain/product/product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/businessdomain/transaction/transaction.iml" filepath="$PROJECT_DIR$/businessdomain/transaction/transaction.iml" />
     </modules>
   </component>
 </project>

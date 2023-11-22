@@ -4,7 +4,7 @@
 
     <parent>
         <groupId>com.demo</groupId>
-        <artifactId>payment-chain-parent</artifactId>
+        <artifactId>microservices</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

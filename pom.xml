@@ -213,6 +213,6 @@ but ussually we use maven clean install
     </build>
     <modules>
         <module>businessdomain</module>
-        <!--<module>../infraestructuradomain</module>-->
+        <module>infraestructuradomain</module>
     </modules>
 </project>
