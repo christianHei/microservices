@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestPart;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.netty.http.client.HttpClient;
@@ -39,9 +39,9 @@ public class CustomerController {
 
     @Autowired
     private CustomerProductRepository customerProductRepository;
-/*
+
     @Autowired
-    private CustomerService customerRepositoryService;*/
+    private CustomerService customerRepositoryService;
 
     @GetMapping
     public List<Customer> findAll() {
@@ -83,8 +83,8 @@ public class CustomerController {
         return node.get("name").asText();
     }
 
-    @GetMapping("/nombre")
-    public Customer findByName(@RequestPart String name) {
+    @GetMapping("/findByName/{name}")
+    public List<Customer> findByName(@PathVariable String name) {
         return customerRepository.findByName(name);
     }
 }
