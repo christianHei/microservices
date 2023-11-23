@@ -13,12 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="businessdomain" target="11" />
-      <module name="customer" target="21" />
       <module name="eurekaserver" target="21" />
-      <module name="infraestructuradomain" target="11" />
-      <module name="product" target="21" />
-      <module name="transaction" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
