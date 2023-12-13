@@ -30,8 +30,8 @@
         </dependencies>
     </dependencyManagement>
 
-    <!--<modules>
+    <modules>
         <module>eurekaserver</module>
-    </modules>-->
+    </modules>
 
 </project>
