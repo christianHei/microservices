@@ -1,0 +1,23 @@
+# swagger
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+#server
+server:
+  port: 8082
+
+#spring
+spring:
+  application:
+    name: product
+
+#eureka server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    registerWithEureka: true
+    fetchRegistry: true
+
+
